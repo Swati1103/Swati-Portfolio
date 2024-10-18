@@ -4,7 +4,7 @@ import { RiGraduationCapFill } from "react-icons/ri";
 const Education = () => {
   return (
     <div className="bg-slate-400 min-h-screen p-5">
-      <div className="flex item-center justify-center text-4xl font-bold mt-5 p-2">
+      <div className="flex item-center justify-center text-4xl font-bold mt-14 p-2">
         <RiGraduationCapFill className="mr-2" /> My
         <span className="text-indigo-800 ml-2">Education</span>
       </div>

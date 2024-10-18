@@ -39,7 +39,7 @@ const Contact = () => {
 
   return (
     <div className="bg-slate-400 min-h-screen p-5">
-      <div className="flex items-center justify-center text-4xl font-bold mt-2 p-2">
+      <div className="flex items-center justify-center text-4xl font-bold mt-14 p-2">
         <TfiHeadphoneAlt className="mr-3" />
         Get In <span className="text-blue-900 ml-3">Touch</span>
       </div>

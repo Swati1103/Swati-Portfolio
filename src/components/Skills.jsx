@@ -5,7 +5,7 @@ import { FaLaptopCode } from "react-icons/fa";
 const Skills = () => {
   return (
     <div className="bg-slate-400 p-10">
-      <div className="flex items-center justify-center text-4xl font-bold mt-2 p-2">
+      <div className="flex items-center justify-center text-4xl font-bold mt-10 p-2">
       <FaLaptopCode className="mr-3"/>Skills &<span className="text-blue-900 ml-3">Abilities</span></div>
       <hr className="border border-black w-72 mx-auto"/>
       <div className="grid grid-cols-5 gap-4 mt-10">

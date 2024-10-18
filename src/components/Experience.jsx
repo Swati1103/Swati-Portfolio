@@ -13,7 +13,7 @@ import { IoLocationSharp } from "react-icons/io5";
 const Experience = () => {
   return (
     <div className="bg-slate-400 min-h-screen p-5">
-      <div className="flex items-center justify-center text-4xl font-bold mt-2 p-2">
+      <div className="flex items-center justify-center text-4xl font-bold mt-14 p-2">
         <PiCertificateBold className="mr-3" />
         My <span className="text-blue-900 ml-3">Experience</span>
       </div>

@@ -7,7 +7,7 @@ import { FaAngleRight } from "react-icons/fa";
 const About = () => {
   return (
     <div className="bg-slate-400 min-h-screen p-5">
-      <div className="flex items-center justify-center text-bold mt-3">
+      <div className="flex items-center justify-center text-bold mt-14">
         <img src={about} alt="about" className="w-9 h-9 mr-3" />
         <div className="text-4xl font-bold p-2">
           About <span className="text-indigo-900">Me</span>

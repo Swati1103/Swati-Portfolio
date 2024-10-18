@@ -8,7 +8,7 @@ import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 const Projects = () => {
   return (
     <div className="bg-slate-400 min-h-screen p-10">
-      <div className="flex text-4xl font-bold align-center justify-center p-2">
+      <div className="flex text-4xl font-bold align-center justify-center p-2 mt-10">
         <CgWebsite className="mr-3" />
         My <span className="text-blue-900 ml-3">Projects</span>
       </div>
