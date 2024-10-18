@@ -6,7 +6,7 @@ import profile from "../assets/profile.jpg";
 // import { FaInstagram } from "react-icons/fa";
 import gfg from "../assets/g4g.jpg";
 import hackerrank from "../assets/hackerrank.png";
-import leetcode from "../assets/leetcode.png";
+import leetcode from "../assets/Leetcode.png";
 import git from "../assets/git.png";
 import linkedIn from "../assets/linkedIn.png";
 import { Link } from "react-router-dom";
