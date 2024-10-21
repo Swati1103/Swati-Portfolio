@@ -14,7 +14,7 @@ const Education = () => {
         think.
       </div>
       <div className="flex flex-col mt-10 space-y-8 items-center justify-center">
-        <div className="flex bg-white border rounded-lg p-5 shadow-2xl w-2/3">
+        <div className="flex bg-white border rounded-lg p-5 shadow-2xl w-2/3 transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-3xl hover:bg-slate-100">
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYPZd8FuY_s9Mfr-jxFgm10xfAcooLc5jt_A&s"
             alt="school"
@@ -26,7 +26,7 @@ const Education = () => {
             <div className="text-green-900 text-xl font-semibold mt-3">2016-2017 | Completed</div>
           </div>
         </div>
-        <div className="flex bg-white border rounded-lg p-5 shadow-2xl w-2/3">
+        <div className="flex bg-white border rounded-lg p-5 shadow-2xl w-2/3 transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-3xl hover:bg-slate-100">
           <img
             src="https://maithandam.kvs.ac.in/sites/default/files/styles/hqphoto/public/20221010_101639_1.jpg?itok=IHRaVswP"
             alt="school"
@@ -40,7 +40,7 @@ const Education = () => {
             <div className="text-green-900 text-xl font-semibold mt-3">2018-2019 | Completed</div>
           </div>
         </div>
-        <div className="flex bg-white border rounded-lg p-5 shadow-2xl w-2/3">
+        <div className="flex bg-white border rounded-lg p-5 shadow-2xl w-2/3 transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-3xl hover:bg-slate-100">
           <img
             src="https://assets.telegraphindia.com/telegraph/2020/Dec/1607347206_bit-sindri.jpg"
             alt="school"

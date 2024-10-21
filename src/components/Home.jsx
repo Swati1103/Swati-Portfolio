@@ -41,7 +41,7 @@ const Home = () => {
   return (
     <div>
       <div className="flex flex-row bg-gray-400 min-h-screen">
-        <div className="basis-1/2 pl-32 pt-32">
+        <div className="basis-1/2 pl-32 pt-32 mt-32">
           <div className="text-6xl font-bold">Hi There,</div>
           <br />
           <div className="text-6xl font-bold">
@@ -53,7 +53,7 @@ const Home = () => {
             </div>
           </div>
           <Link to="/about">
-            <div className="border border-black px-4 py-2 w-36 h-12 text-white text-lg rounded-3xl bg-cyan-800 mt-7 hover:bg-cyan-700">
+            <div className="border border-black px-4 py-2 w-36 h-12 text-white text-lg rounded-3xl bg-cyan-800 mt-7 hover:bg-cyan-700 transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">
               About Me ⬇️
             </div>
           </Link>
@@ -63,6 +63,7 @@ const Home = () => {
               href="https://github.com/Swati1103"
               target="_blank"
               rel="noopener noreferrer"
+              className="transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg"
             >
               <img
                 src={git}
@@ -74,6 +75,7 @@ const Home = () => {
               href="https://www.linkedin.com/in/swatisingh1103/"
               target="_blank"
               rel="noopener noreferrer"
+              className="transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg"
             >
               <img
                 src={linkedIn}
@@ -85,6 +87,7 @@ const Home = () => {
               href="https://www.hackerrank.com/profile/pariswati1103"
               target="_blank"
               rel="noopener noreferrer"
+              className="transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg"
             >
               <img
                 src={hackerrank}
@@ -96,6 +99,7 @@ const Home = () => {
               href="https://leetcode.com/u/pariswati1103/"
               target="_blank"
               rel="noopener noreferrer"
+              className="transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg"
             >
               <img
                 src={leetcode}
@@ -107,6 +111,7 @@ const Home = () => {
               href="https://www.geeksforgeeks.org/user/swatisingh1103/"
               target="_blank"
               rel="noopener noreferrer"
+              className="transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg"
             >
               <img
                 src={gfg}
@@ -117,11 +122,11 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="basis-1/2 pl-20 py-32">
+        <div className="basis-1/2 pl-20 py-32 mt-24">
           <img
             src={profile}
             alt="profile"
-            className="rounded-full w-96 h-96 object-cover"
+            className="rounded-full w-[400px] h-[400px] object-cover transition-transform duration-500 ease-in-out transform hover:scale-110 hover:-translate-y-5 hover:shadow-2xl"
           />
         </div>
       </div>

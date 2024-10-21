@@ -12,7 +12,7 @@ const Skills = () => {
         {skillcard.map((skill) => (
           <div
             key={skill?.id}
-            className="bg-white p-5 flex flex-col items-center shadow-md rounded-lg"
+            className="bg-white p-5 flex flex-col items-center shadow-md rounded-lg transition-transform duration-300 ease-in-out transform hover:scale-110 hover:bg-slate-100"
           >
             <img
               src={skill?.path}

@@ -19,7 +19,7 @@ const Projects = () => {
       <div className="flex flex-row mt-8">
         {/* left part */}
         <div className="basis-1/2">
-          <div className="flex flex-col h-[600px] w-[600px] bg-slate-300 border rounded-full p-4 shadow-2xl mr-5 overflow-hidden mt-5">
+          <div className="flex flex-col h-[600px] w-[600px] bg-slate-300 border rounded-full p-4 shadow-2xl mr-5 overflow-hidden mt-5 transition-all duration-300 hover:bg-slate-200 hover:scale-110">
             <img src={QR} alt="QR" className="w-[270px] h-auto max-w-xs mx-auto mt-6" />
             <div className="flex flex-col justify-center mt-4">
               <div className="text-center text-3xl font-bold">JOBZEE</div>
@@ -37,19 +37,19 @@ const Projects = () => {
                 jobs hidden from job seekers.
               </div>
               <div className="flex justify-center space-x-2 mt-5 flex-wrap">
-                <div className="border border-zinc-400 bg-red-300 hover:bg-red-400 p-2 rounded-lg shadow-2xl">
+                <div className="border border-zinc-400 bg-red-300 hover:bg-red-400 p-2 rounded-lg shadow-2xl transition-colors duration-300 ease-in-out hover:scale-105">
                   MongoDb
                 </div>
-                <div className="border border-zinc-400 bg-red-300 hover:bg-red-400 p-2 rounded-lg shadow-2xl">
+                <div className="border border-zinc-400 bg-red-300 hover:bg-red-400 p-2 rounded-lg shadow-2xl transition-colors duration-300 ease-in-out hover:scale-105">
                   ExpressJs
                 </div>
-                <div className="border border-zinc-400 bg-red-300 hover:bg-red-400 p-2 rounded-lg shadow-2xl">
+                <div className="border border-zinc-400 bg-red-300 hover:bg-red-400 p-2 rounded-lg shadow-2xl transition-colors duration-300 ease-in-out hover:scale-105">
                   ReactJs
                 </div>
-                <div className="border border-zinc-400 bg-red-300 hover:bg-red-400 p-2 rounded-lg shadow-2xl">
+                <div className="border border-zinc-400 bg-red-300 hover:bg-red-400 p-2 rounded-lg shadow-2xl transition-colors duration-300 ease-in-out hover:scale-105">
                   NodeJs
                 </div>
-                <div className="border border-zinc-400 bg-red-300 hover:bg-red-400 p-2 rounded-lg shadow-2xl">
+                <div className="border border-zinc-400 bg-red-300 hover:bg-red-400 p-2 rounded-lg shadow-2xl transition-colors duration-300 ease-in-out hover:scale-105">
                   TailwindCSS
                 </div>
               </div>
@@ -73,7 +73,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="mt-[200px] flex flex-col h-[600px] w-[600px] bg-slate-300 border rounded-full p-4 shadow-2xl mr-5 overflow-hidden">
+          <div className="mt-[200px] flex flex-col h-[600px] w-[600px] bg-slate-300 border rounded-full p-4 shadow-2xl mr-5 overflow-hidden transition-all duration-300 hover:bg-slate-200 hover:scale-110">
           <img src="https://camo.githubusercontent.com/91682d48defd2322db208e2a75583408f6f2d5cb61b230c8a76f78d986433fff/68747470733a2f2f69302e77702e636f6d2f746865636c6576657270726f6772616d6d65722e636f6d2f77702d636f6e74656e742f75706c6f6164732f323032302f31322f4d616368696e652d4c6561726e696e672d50726f6a6563742d6f6e2d486f7573652d50726963652d50726564696374696f6e2e706e673f6669743d313238302532433732302673736c3d31" alt="QR" className="w-[270px] h-auto max-w-xs mx-auto mt-6" />
           <div className="flex flex-col justify-center mt-4">
             <div className="text-center text-3xl font-bold">
@@ -91,16 +91,16 @@ const Projects = () => {
               Matplotlib for data processing and model building.
             </div>
             <div className="flex justify-center space-x-2 mt-5 flex-wrap">
-              <div className="border border-zinc-400 bg-amber-300 hover:bg-amber-200 p-2 rounded-lg shadow-2xl">
+              <div className="border border-zinc-400 bg-amber-300 hover:bg-amber-200 p-2 rounded-lg shadow-2xl transition-colors duration-300 ease-in-out hover:scale-105">
                 Pandas
               </div>
-              <div className="border border-zinc-400 bg-amber-300 hover:bg-amber-200 p-2 rounded-lg shadow-2xl">
+              <div className="border border-zinc-400 bg-amber-300 hover:bg-amber-200 p-2 rounded-lg shadow-2xl transition-colors duration-300 ease-in-out hover:scale-105">
                 NumPy
               </div>
-              <div className="border border-zinc-400 bg-amber-300 hover:bg-amber-200 p-2 rounded-lg shadow-2xl">
+              <div className="border border-zinc-400 bg-amber-300 hover:bg-amber-200 p-2 rounded-lg shadow-2xl transition-colors duration-300 ease-in-out hover:scale-105">
                 ScikitLearn
               </div>
-              <div className="border border-zinc-400 bg-amber-300 hover:bg-amber-200 p-2 rounded-lg shadow-2xl">
+              <div className="border border-zinc-400 bg-amber-300 hover:bg-amber-200 p-2 rounded-lg shadow-2xl transition-colors duration-300 ease-in-out hover:scale-105">
                 Matplotlib
               </div>
             </div>
@@ -124,7 +124,7 @@ const Projects = () => {
             </div>
           </div>
           </div>
-          <div className="mt-[200px] flex flex-col h-[600px] w-[600px] bg-slate-300 border rounded-full p-4 shadow-2xl mr-5 overflow-hidden">
+          <div className="mt-[200px] flex flex-col h-[600px] w-[600px] bg-slate-300 border rounded-full p-4 shadow-2xl mr-5 overflow-hidden transition-all duration-300 hover:bg-slate-200 hover:scale-110">
           <img src="https://camo.githubusercontent.com/91682d48defd2322db208e2a75583408f6f2d5cb61b230c8a76f78d986433fff/68747470733a2f2f69302e77702e636f6d2f746865636c6576657270726f6772616d6d65722e636f6d2f77702d636f6e74656e742f75706c6f6164732f323032302f31322f4d616368696e652d4c6561726e696e672d50726f6a6563742d6f6e2d486f7573652d50726963652d50726564696374696f6e2e706e673f6669743d313238302532433732302673736c3d31" alt="QR" className="w-[270px] h-auto max-w-xs mx-auto mt-6" />
           <div className="flex flex-col justify-center mt-4">
             <div className="text-center text-3xl font-bold">
@@ -142,16 +142,16 @@ const Projects = () => {
               Matplotlib for data processing and model building.
             </div>
             <div className="flex justify-center space-x-2 mt-5 flex-wrap">
-              <div className="border border-zinc-400 bg-amber-300 hover:bg-amber-200 p-2 rounded-lg shadow-2xl">
+              <div className="border border-zinc-400 bg-amber-300 hover:bg-amber-200 p-2 rounded-lg shadow-2xl transition-colors duration-300 ease-in-out hover:scale-105">
                 Pandas
               </div>
-              <div className="border border-zinc-400 bg-amber-300 hover:bg-amber-200 p-2 rounded-lg shadow-2xl">
+              <div className="border border-zinc-400 bg-amber-300 hover:bg-amber-200 p-2 rounded-lg shadow-2xl transition-colors duration-300 ease-in-out hover:scale-105">
                 NumPy
               </div>
-              <div className="border border-zinc-400 bg-amber-300 hover:bg-amber-200 p-2 rounded-lg shadow-2xl">
+              <div className="border border-zinc-400 bg-amber-300 hover:bg-amber-200 p-2 rounded-lg shadow-2xl transition-colors duration-300 ease-in-out hover:scale-105">
                 ScikitLearn
               </div>
-              <div className="border border-zinc-400 bg-amber-300 hover:bg-amber-200 p-2 rounded-lg shadow-2xl">
+              <div className="border border-zinc-400 bg-amber-300 hover:bg-amber-200 p-2 rounded-lg shadow-2xl transition-colors duration-300 ease-in-out hover:scale-105">
                 Matplotlib
               </div>
             </div>
@@ -180,7 +180,7 @@ const Projects = () => {
         <div className="w-1 bg-slate-950"></div>
         {/* right part */}
         <div className="basis-1/2">
-          <div className="mt-[400px] flex flex-col h-[600px] w-[600px] bg-slate-300 border rounded-full p-4 shadow-4xl ml-16 overflow-hidden">
+          <div className="mt-[400px] flex flex-col h-[600px] w-[600px] bg-slate-300 border rounded-full p-4 shadow-4xl ml-16 overflow-hidden transition-all duration-300 hover:bg-slate-200 hover:scale-110">
           <img src={job} alt="QR" className="w-[270px] h-auto max-w-xs mx-auto mt-6" />
           <div className="flex flex-col justify-center mt-4">
             <div className="text-center text-3xl font-bold">QR WEDS</div>
@@ -199,19 +199,19 @@ const Projects = () => {
               accessibility.
             </div>
             <div className="flex justify-center space-x-2 mt-5 flex-wrap">
-              <div className="border border-zinc-400 bg-teal-400 hover:bg-teal-300 p-2 rounded-lg shadow-2xl">
+              <div className="border border-zinc-400 bg-teal-400 hover:bg-teal-300 p-2 rounded-lg shadow-2xl transition-colors duration-300 ease-in-out hover:scale-105">
                 MongoDb
               </div>
-              <div className="border border-zinc-400 bg-teal-400 hover:bg-teal-300 p-2 rounded-lg shadow-2xl">
+              <div className="border border-zinc-400 bg-teal-400 hover:bg-teal-300 p-2 rounded-lg shadow-2xl transition-colors duration-300 ease-in-out hover:scale-105">
                 ExpressJs
               </div>
-              <div className="border border-zinc-400 bg-teal-400 hover:bg-teal-300 p-2 rounded-lg shadow-2xl">
+              <div className="border border-zinc-400 bg-teal-400 hover:bg-teal-300 p-2 rounded-lg shadow-2xl transition-colors duration-300 ease-in-out hover:scale-105">
                 ReactJs
               </div>
-              <div className="border border-zinc-400 bg-teal-400 hover:bg-teal-300 p-2 rounded-lg shadow-2xl">
+              <div className="border border-zinc-400 bg-teal-400 hover:bg-teal-300 p-2 rounded-lg shadow-2xl transition-colors duration-300 ease-in-out hover:scale-105">
                 NodeJs
               </div>
-              <div className="border border-zinc-400 bg-teal-400 hover:bg-teal-300 p-2 rounded-lg shadow-2xl">
+              <div className="border border-zinc-400 bg-teal-400 hover:bg-teal-300 p-2 rounded-lg shadow-2xl transition-colors duration-300 ease-in-out hover:scale-105">
                 TailwindCSS
               </div>
             </div>
@@ -235,7 +235,7 @@ const Projects = () => {
             </div>
           </div>
           </div>
-          <div className="mt-[180px] flex flex-col h-[600px] w-[600px] bg-slate-300 border rounded-full p-4 shadow-2xl ml-16 overflow-hidden">
+          <div className="mt-[180px] flex flex-col h-[600px] w-[600px] bg-slate-300 border rounded-full p-4 shadow-2xl ml-16 overflow-hidden transition-all duration-300 hover:bg-slate-200 hover:scale-110">
           <img src={job} alt="QR" className="w-[270px] h-auto max-w-xs mx-auto mt-6" />
           <div className="flex flex-col justify-center mt-4">
             <div className="text-center text-3xl font-bold">QR WEDS</div>
@@ -254,19 +254,19 @@ const Projects = () => {
               accessibility.
             </div>
             <div className="flex justify-center space-x-2 mt-5 flex-wrap">
-              <div className="border border-zinc-400 bg-teal-400 hover:bg-teal-300 p-2 rounded-lg shadow-2xl">
+              <div className="border border-zinc-400 bg-teal-400 hover:bg-teal-300 p-2 rounded-lg shadow-2xl transition-colors duration-300 ease-in-out hover:scale-105">
                 MongoDb
               </div>
-              <div className="border border-zinc-400 bg-teal-400 hover:bg-teal-300 p-2 rounded-lg shadow-2xl">
+              <div className="border border-zinc-400 bg-teal-400 hover:bg-teal-300 p-2 rounded-lg shadow-2xl transition-colors duration-300 ease-in-out hover:scale-105">
                 ExpressJs
               </div>
-              <div className="border border-zinc-400 bg-teal-400 hover:bg-teal-300 p-2 rounded-lg shadow-2xl">
+              <div className="border border-zinc-400 bg-teal-400 hover:bg-teal-300 p-2 rounded-lg shadow-2xl transition-colors duration-300 ease-in-out hover:scale-105">
                 ReactJs
               </div>
-              <div className="border border-zinc-400 bg-teal-400 hover:bg-teal-300 p-2 rounded-lg shadow-2xl">
+              <div className="border border-zinc-400 bg-teal-400 hover:bg-teal-300 p-2 rounded-lg shadow-2xl transition-colors duration-300 ease-in-out hover:scale-105">
                 NodeJs
               </div>
-              <div className="border border-zinc-400 bg-teal-400 hover:bg-teal-300 p-2 rounded-lg shadow-2xl">
+              <div className="border border-zinc-400 bg-teal-400 hover:bg-teal-300 p-2 rounded-lg shadow-2xl transition-colors duration-300 ease-in-out hover:scale-105">
                 TailwindCSS
               </div>
             </div>
@@ -290,7 +290,7 @@ const Projects = () => {
             </div>
           </div>
           </div>
-          <div className="mt-[200px] mb-5 flex flex-col h-[600px] w-[600px] bg-slate-300 border rounded-full p-4 shadow-2xl ml-16 overflow-hidden">
+          <div className="mt-[200px] mb-5 flex flex-col h-[600px] w-[600px] bg-slate-300 border rounded-full p-4 shadow-2xl ml-16 overflow-hidden transition-all duration-300 hover:bg-slate-200 hover:scale-110">
           <img src={job} alt="QR" className="w-[270px] h-auto max-w-xs mx-auto mt-6" />
           <div className="flex flex-col justify-center mt-4">
             <div className="text-center text-3xl font-bold">QR WEDS</div>
@@ -309,19 +309,19 @@ const Projects = () => {
               accessibility.
             </div>
             <div className="flex justify-center space-x-2 mt-5 flex-wrap">
-              <div className="border border-zinc-400 bg-teal-400 hover:bg-teal-300 p-2 rounded-lg shadow-2xl">
+              <div className="border border-zinc-400 bg-teal-400 hover:bg-teal-300 p-2 rounded-lg shadow-2xl transition-colors duration-300 ease-in-out hover:scale-105">
                 MongoDb
               </div>
-              <div className="border border-zinc-400 bg-teal-400 hover:bg-teal-300 p-2 rounded-lg shadow-2xl">
+              <div className="border border-zinc-400 bg-teal-400 hover:bg-teal-300 p-2 rounded-lg shadow-2xl transition-colors duration-300 ease-in-out hover:scale-105">
                 ExpressJs
               </div>
-              <div className="border border-zinc-400 bg-teal-400 hover:bg-teal-300 p-2 rounded-lg shadow-2xl">
+              <div className="border border-zinc-400 bg-teal-400 hover:bg-teal-300 p-2 rounded-lg shadow-2xl transition-colors duration-300 ease-in-out hover:scale-105">
                 ReactJs
               </div>
-              <div className="border border-zinc-400 bg-teal-400 hover:bg-teal-300 p-2 rounded-lg shadow-2xl">
+              <div className="border border-zinc-400 bg-teal-400 hover:bg-teal-300 p-2 rounded-lg shadow-2xl transition-colors duration-300 ease-in-out hover:scale-105">
                 NodeJs
               </div>
-              <div className="border border-zinc-400 bg-teal-400 hover:bg-teal-300 p-2 rounded-lg shadow-2xl">
+              <div className="border border-zinc-400 bg-teal-400 hover:bg-teal-300 p-2 rounded-lg shadow-2xl transition-colors duration-300 ease-in-out hover:scale-105">
                 TailwindCSS
               </div>
             </div>

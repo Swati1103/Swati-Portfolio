@@ -19,7 +19,7 @@ const Experience = () => {
       </div>
       <hr className="border border-black w-72 mx-auto" />
       <div className="flex flex-row mt-14">
-        <div className="border border-slate-400 h-[500px] w-[500px] rounded-full bg-slate-300 ml-7 shadow-2xl">
+        <div className="border border-slate-400 h-[500px] w-[500px] rounded-full bg-slate-300 ml-7 shadow-2xl transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-3xl hover:bg-slate-100">
           <div className="text-3xl font-bold text-center mt-44 text-blue-800">
             COGNERA INCORPORATION
           </div>
@@ -39,7 +39,7 @@ const Experience = () => {
             Work From Home
           </div>
         </div>
-        <div className="border border-slate-400 h-[500px] w-[700px] rounded-lg bg-slate-300 ml-32 shadow-2xl">
+        <div className="border border-slate-400 h-[500px] w-[700px] rounded-lg bg-slate-300 ml-32 shadow-2xl transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-3xl hover:bg-slate-100">
           <div className="mt-5 text-center text-3xl font-bold">My Work</div>
           <hr className="mx-72 border border-black" />
           <div className="mt-10 text-sm text-center">
@@ -57,19 +57,19 @@ const Experience = () => {
           <div className="flex mt-16">
             <div className="ml-7 mt-2 mr-3 text-xl font-semibold text-blue-800">Tech Stack : </div>
             <div className="flex justify-center space-x-4 flex-wrap">
-              <div className="border border-zinc-400 bg-slate-400 hover:bg-slate-500 p-2 rounded-lg shadow-2xl">
+              <div className="border border-zinc-400 bg-slate-400 hover:bg-slate-500 p-2 rounded-lg shadow-2xl transition-colors duration-300 ease-in-out hover:scale-105">
                 MongoDb
               </div>
-              <div className="border border-zinc-400  bg-slate-400 hover:bg-slate-500 p-2 rounded-lg shadow-2xl">
+              <div className="border border-zinc-400  bg-slate-400 hover:bg-slate-500 p-2 rounded-lg shadow-2xl transition-colors duration-300 ease-in-out hover:scale-105">
                 ExpressJs
               </div>
-              <div className="border border-zinc-400  bg-slate-400 hover:bg-slate-500 p-2 rounded-lg shadow-2xl">
+              <div className="border border-zinc-400  bg-slate-400 hover:bg-slate-500 p-2 rounded-lg shadow-2xl transition-colors duration-300 ease-in-out hover:scale-105">
                 ReactJs
               </div>
-              <div className="border border-zinc-400  bg-slate-400 hover:bg-slate-500 p-2 rounded-lg shadow-2xl">
+              <div className="border border-zinc-400  bg-slate-400 hover:bg-slate-500 p-2 rounded-lg shadow-2xl transition-colors duration-300 ease-in-out hover:scale-105">
                 NodeJs
               </div>
-              <div className="border border-zinc-400  bg-slate-400 hover:bg-slate-500 p-2 rounded-lg shadow-2xl">
+              <div className="border border-zinc-400  bg-slate-400 hover:bg-slate-500 p-2 rounded-lg shadow-2xl transition-colors duration-300 ease-in-out hover:scale-105">
                 TailwindCSS
               </div>
             </div>
